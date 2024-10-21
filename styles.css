@@ -31,11 +31,36 @@ header h1 {
     font-size: 1.2em;  
 }  
   
-.intro {  
-    line-height: 1.6;  
+nav {  
+    margin-top: 20px;  
 }  
   
-.intro h2 {  
+.nav-buttons {  
+    list-style: none;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+    gap: 15px;  
+}  
+  
+.button {  
+    background-color: #ff69b4;  
+    color: white;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s;  
+}  
+  
+.button:hover {  
+    background-color: #ff1493;  
+}  
+  
+.section {  
+    margin-bottom: 30px;  
+}  
+  
+.intro h2, .section h2 {  
     color: #ff69b4;  
     margin-top: 0;  
 }  
